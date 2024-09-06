@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    line-height: 1.6; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-image: url("https://img.freepik.com/free-photo/amazing-beautiful-sky-with-clouds_58702-1649.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1{
+  color: black;
+  font-style: oblique;
+  
+}
+.card{
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   flex-direction: column;
+   box-shadow: inset;
+   
+}
+.inp_box{
+  width: 100%; /* Input takes full width of its container */
+  padding: 15px; /* Adds space inside the input */
+  font-size: 2rem; /* Adjusts text size */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+}
+ @media (max-width: 768px) {
+      .input_box {
+        padding: 12px; 
+        font-size: 1rem;
+      }
+}
+
+        
+@media (max-width: 480px) {
+      .input_box {
+        padding: 10px;
+        font-size: 0.9rem; 
+      }
+}
+.submit-button{
+   padding: 15px 35px; 
+   font-size: 1.2rem;  
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+ .submit-button:hover {
+  transform: scale(1.05); 
+}
+@media (max-width: 768px) {
+  .submit-button {
+    padding: 12px 25px; 
+    font-size: 1rem;    
+  }
+}
+       
+@media (max-width: 480px) {
+  .submit-button:hover {
+    padding: 10px 20px; 
+    font-size: 0.9rem;  
+  }
+}
+.showData{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-direction: column; 
+}
+.displayData{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+}
+
+.data{
+  margin: 20px;
+ 
+}
+.thermometer{
+  margin: 20px;
+}
+.Image{
+  height: 120px;
+  width: 120px;
+  mix-blend-mode: multiply;
+}
+.description{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;  
+}
